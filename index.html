@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <center>
+    <div class="container" style="border: 4px solid rgb(20, 223, 71); border-radius: 20px;">
+        <h1  style="font-family: Arial, Helvetica, sans-serif;font-style: italic;font-weight: 800;">Body Mass Index Calculator</h1>
+        <div>
+            <label style="font-size: larger; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Enter your height in Feets and Inches</label>
+            <br><br>
+            <input type="tel" id="feet" placeholder="   Feets">
+            <br><br>
+            <input type="tel" id="inch" placeholder="  Inches">
+
+            <br>
+            <br>
+            <label style="font-size: larger; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Enter your weight in Kg</label><br>
+            <br>
+            <input type="tel" id="kg" placeholder="  Kilogam and gram">
+            <br><br>
+            <button onclick="CalculateBMI()">Calculate</button>
+            <br>
+            
+            <h1 id="result"></h1>
+        </div>
+    </div>
+</center>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
